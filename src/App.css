@@ -1,0 +1,158 @@
+.app-container {
+  width: 450px;
+  margin: 50px auto;
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* الهيدر */
+.app-header {
+  background: #4a90e2;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* صفحة تسجيل الدخول */
+.login-page {
+  padding: 30px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.login-page h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.login-page input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.login-page button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.login-page button:hover {
+  background-color: #357ab7;
+}
+
+/* نافذة الدردشة */
+.chat-window {
+  height: 350px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.chat-header p {
+  margin: 0;
+  color: #555;
+  font-size: 1em;
+}
+
+.chat-header button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.chat-header button:hover {
+  background-color: #c0392b;
+}
+
+/* الرسائل */
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #fafafa;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #e3f2fd;
+  border-radius: 6px;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.message strong {
+  color: #007bff;
+}
+
+.message span {
+  font-size: 0.8em;
+  color: #555;
+  margin-left: 10px;
+}
+
+.user-typing {
+  color: #777;
+  font-style: italic;
+  padding: 5px 0;
+}
+
+/* حقل الإدخال */
+.input-container {
+  display: flex;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ddd;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.input-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.input-container button:hover {
+  background-color: #388e3c;
+}
